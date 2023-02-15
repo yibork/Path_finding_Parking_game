@@ -1,0 +1,493 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.4f1 (76dd1f94b339) revision 7789855'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 16190 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/AUI_Spring 2023/p AI/projects/Our_game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57710
+Successfully changed project path to: D:/AUI_Spring 2023/p AI/projects/Our_game
+D:/AUI_Spring 2023/p AI/projects/Our_game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 222.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.4f1 (76dd1f94b339)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/AUI_Spring 2023/p AI/projects/Our_game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   Intel
+    VRAM:     8095 MB
+    Driver:   31.0.101.1999
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010597 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 220.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.937 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1938ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1421ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (345ms)
+				TypeCache.Initialize (344ms)
+					TypeCache.ScanAssembly (340ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (828ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (19ms)
+				RefreshPlugins (221ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (430ms)
+				ProcessInitializeOnLoadMethodAttributes (137ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.017329 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\AUI_Spring 2023\p AI\projects\Our_game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\AUI_Spring 2023\p AI\projects\Our_game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.269 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3271ms)
+		BeginReloadAssembly (347ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (2575ms)
+			LoadAssemblies (248ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (839ms)
+				TypeCache.Initialize (827ms)
+					TypeCache.ScanAssembly (815ms)
+				ResolveRequiredComponents (12ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (170ms)
+			SetupLoadedEditorAssemblies (1166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (24ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (249ms)
+				ProcessInitializeOnLoadAttributes (762ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3388 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (57.7 KB). Loaded Objects now: 3852.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 10.244500 ms (FindLiveObjects: 0.652500 ms CreateObjectMapping: 0.560700 ms MarkObjects: 8.820500 ms  DeleteObjects: 0.207500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46720.926119 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Floor/2S_Floor_Displacement.png
+  artifactKey: Guid(84e9bdede4c8a0a42b7d2c01b61f9ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Floor/2S_Floor_Displacement.png using Guid(84e9bdede4c8a0a42b7d2c01b61f9ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a862c2c21c22f38c0c743c849b0db22') in 0.229282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Floor/2S_Floor_Albedo.png
+  artifactKey: Guid(3165eb96ca8374d41a18b9e0a92a6e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Floor/2S_Floor_Albedo.png using Guid(3165eb96ca8374d41a18b9e0a92a6e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8250b1b076beeb8eac4526d3d6719dee') in 0.045845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Floor/2S_Floor_Normal.png
+  artifactKey: Guid(408a61a0829ce08439e0b82a426d3ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Floor/2S_Floor_Normal.png using Guid(408a61a0829ce08439e0b82a426d3ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e725b588b527183c0d1ddaf82847234') in 0.163582 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008612 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\AUI_Spring 2023\p AI\projects\Our_game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\AUI_Spring 2023\p AI\projects\Our_game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.151 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2153ms)
+		BeginReloadAssembly (249ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1692ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (608ms)
+				TypeCache.Initialize (598ms)
+					TypeCache.ScanAssembly (588ms)
+				ResolveRequiredComponents (10ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (684ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (13ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (454ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (25.4 KB). Loaded Objects now: 3861.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 5.319000 ms (FindLiveObjects: 0.414500 ms CreateObjectMapping: 0.298600 ms MarkObjects: 4.560900 ms  DeleteObjects: 0.042500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008702 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\AUI_Spring 2023\p AI\projects\Our_game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\AUI_Spring 2023\p AI\projects\Our_game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.056 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2057ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1615ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (626ms)
+				TypeCache.Initialize (616ms)
+					TypeCache.ScanAssembly (607ms)
+				ResolveRequiredComponents (10ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (626ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (13ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (410ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.5 KB). Loaded Objects now: 3864.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 5.799800 ms (FindLiveObjects: 0.430700 ms CreateObjectMapping: 0.412900 ms MarkObjects: 4.913900 ms  DeleteObjects: 0.040200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 426.608520 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Mesh_John_Ranger/John_Basic_version.Fbx
+  artifactKey: Guid(2c4940e26868a3746ab43355333dfdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Mesh_John_Ranger/John_Basic_version.Fbx using Guid(2c4940e26868a3746ab43355333dfdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b528106124934f12fabd7a6e20c26b68') in 3.758503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.171660 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character
+  artifactKey: Guid(8230729ea80379c44a299c696ac11785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character using Guid(8230729ea80379c44a299c696ac11785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac85d2396ea0a4ffecedc96f03459566') in 0.022440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.616986 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger
+  artifactKey: Guid(031d4ccd8b320ee45a7c7fae0dc538ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger using Guid(031d4ccd8b320ee45a7c7fae0dc538ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405f3483214d5a7c6a0fa5ed8019fdd4') in 0.025628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.308925 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Arm/2S_Arm_ao.png
+  artifactKey: Guid(044569848dd13fb40b92213be1ae7060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Arm/2S_Arm_ao.png using Guid(044569848dd13fb40b92213be1ae7060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6872e4ba82332ab96d609cdf45b09d59') in 0.110221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Arm/2S_Arm_roughness.png
+  artifactKey: Guid(a1164f325d2344043ad1c06045ebee1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Arm/2S_Arm_roughness.png using Guid(a1164f325d2344043ad1c06045ebee1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c5dfcb436d7b2dd4e5c98ff86be38b') in 0.080710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Arm/2S_Arm_Normal.png
+  artifactKey: Guid(494701563301c954dab682ff74081dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Arm/2S_Arm_Normal.png using Guid(494701563301c954dab682ff74081dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2558f9a946b5710e2c56003f6834c77') in 0.060759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Arm
+  artifactKey: Guid(39b9ee44a126d6f41ba64782c43209cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Arm using Guid(39b9ee44a126d6f41ba64782c43209cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46caf461af445d3307890d27bf1df4a7') in 0.018434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.809367 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Arm/Materials
+  artifactKey: Guid(5abad71fffb6aad43958541a0b803f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Arm/Materials using Guid(5abad71fffb6aad43958541a0b803f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b45cbb94a170819fae593d146af60e8') in 0.023726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.695882 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Traparent_John_Ranger/2S_Traparent_John_Ranger_Albedo.png
+  artifactKey: Guid(41132a085a5f5ac4e8dabbdafa27f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Traparent_John_Ranger/2S_Traparent_John_Ranger_Albedo.png using Guid(41132a085a5f5ac4e8dabbdafa27f0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27160d2e5d82b5b0fa86f415ec793f0') in 0.077374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.646850 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Nails/2S_Nails_ao.png
+  artifactKey: Guid(88653d939cd43d14993e584a2866e628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Nails/2S_Nails_ao.png using Guid(88653d939cd43d14993e584a2866e628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6a24a49f92ed9e8a840b70b9a3d53e') in 0.090355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Nails/2S_Nails_Metallic.png
+  artifactKey: Guid(19d1d2ee2adcfde4ea71f6c225f6d3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Nails/2S_Nails_Metallic.png using Guid(19d1d2ee2adcfde4ea71f6c225f6d3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a90992255d03518e1e11d9ecf15e51b') in 0.075001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.695126 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Head_John_Ranger/2S_Head_Albedo_John_Ranger.png
+  artifactKey: Guid(2a7cb53a953415840b1e750f09e50605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Head_John_Ranger/2S_Head_Albedo_John_Ranger.png using Guid(2a7cb53a953415840b1e750f09e50605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59f8cfe3ab06495ef5f43479b6549db') in 0.085479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Head_John_Ranger/2S_Head_Normal_John_Ranger.png
+  artifactKey: Guid(e0221eeb9887c4146bf2ec92f22b81d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Head_John_Ranger/2S_Head_Normal_John_Ranger.png using Guid(e0221eeb9887c4146bf2ec92f22b81d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c306cc46762a4ddb1f9fa1d5486375') in 0.090338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.289937 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Eyes_John_Ranger/2S_Eye_Albedo_John_Ranger.png
+  artifactKey: Guid(2fc6a246c8ecc9347b224522067f8191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Eyes_John_Ranger/2S_Eye_Albedo_John_Ranger.png using Guid(2fc6a246c8ecc9347b224522067f8191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03876fe6dcb5bcfec0646d1dc03fbd42') in 0.085689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Eyes_John_Ranger/2S_Eye_Normal_John_Ranger.png
+  artifactKey: Guid(5308726eaf07ce047906f481164d5929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Eyes_John_Ranger/2S_Eye_Normal_John_Ranger.png using Guid(5308726eaf07ce047906f481164d5929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9620c673326e6e0bb45c89d47fd8eae9') in 0.084130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.927157 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Eyelash_John_Ranger/2S_Eyelash_Albedo_John_Ranger.png
+  artifactKey: Guid(b03499364b24aad43960b3ea2a22958d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Eyelash_John_Ranger/2S_Eyelash_Albedo_John_Ranger.png using Guid(b03499364b24aad43960b3ea2a22958d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053db4c50247a349ea9dcfddb747a336') in 0.082827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.034489 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Body/2S_Body_ao.png
+  artifactKey: Guid(d60e850a7308aa342bf87ef2c9f3c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Body/2S_Body_ao.png using Guid(d60e850a7308aa342bf87ef2c9f3c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc8c38633e53eced9085ceff035a4aa') in 0.073517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Body/2S_Body_roughness.png
+  artifactKey: Guid(ea09402b242a38049836159ab06e27e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Body/2S_Body_roughness.png using Guid(ea09402b242a38049836159ab06e27e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db140c499f3b00b529d5aa3a1f5435b') in 0.077176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Body/2S_Body_Normal.png
+  artifactKey: Guid(ca3cb01fc6db8094d9f0d4e91f0900e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Body/2S_Body_Normal.png using Guid(ca3cb01fc6db8094d9f0d4e91f0900e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42b13ce3b78e3b488690ced7eb5178c') in 0.082372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.061338 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Head_John_Ranger
+  artifactKey: Guid(086f551ec0c9dc3438714278aca13960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Head_John_Ranger using Guid(086f551ec0c9dc3438714278aca13960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb9ec590d479b77c3b4b30a2e2e341e') in 0.025139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.453938 seconds.
+  path: Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Head_John_Ranger/Materials/2S_Head_John_Ranger.mat
+  artifactKey: Guid(7b08c39be9dfb3048b3ee1df4b985e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWO_SAPIENS_2S_JOHN_BASIC/2S_Textures_John_Ranger/2S_John_Character/2S_Face_John_Ranger/2S_Head_John_Ranger/Materials/2S_Head_John_Ranger.mat using Guid(7b08c39be9dfb3048b3ee1df4b985e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9945ea27665dd7c3ab21b556ddf24fd') in 0.078357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.416802 seconds.
+  path: Assets/Truck_LowPoly/Materials/Container.mat
+  artifactKey: Guid(eb1ad9cacc8989043b3c0f68804bbdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Materials/Container.mat using Guid(eb1ad9cacc8989043b3c0f68804bbdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5873ab547165045566ab16e2aa565b') in 0.122746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Truck_LowPoly/Materials/Wheels.mat
+  artifactKey: Guid(55f0f6c0fe76bb94a9acfca9c79610fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Materials/Wheels.mat using Guid(55f0f6c0fe76bb94a9acfca9c79610fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed86b8f5a27b6afbe2f8bc789c5d60e') in 0.115249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Truck_LowPoly/Materials/SkyBox.mat
+  artifactKey: Guid(3d17c1a5a35f4b940a67dbf929d70a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Materials/SkyBox.mat using Guid(3d17c1a5a35f4b940a67dbf929d70a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc39a0599006365023266fdf60ab217') in 0.073747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Truck_LowPoly/Materials/Glass.mat
+  artifactKey: Guid(c72c4cd912366e5488cf15d04c97b355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Materials/Glass.mat using Guid(c72c4cd912366e5488cf15d04c97b355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3073548ba511cfcb96c70c4ac155b656') in 0.071592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Truck_LowPoly/Materials/Container_Skin03.mat
+  artifactKey: Guid(f635f2ce26411ab499a58fc74f4851f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Materials/Container_Skin03.mat using Guid(f635f2ce26411ab499a58fc74f4851f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4752306eecad0b43b539586677e5a9d9') in 0.087174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Truck_LowPoly/Materials/Front_Main_Body 2.mat
+  artifactKey: Guid(21e556080923d7841baaa2824c4772b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Materials/Front_Main_Body 2.mat using Guid(21e556080923d7841baaa2824c4772b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299866b2ad150c45280a6ca3cf624b99') in 0.058959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Truck_LowPoly/Materials/Front_Bottom2.mat
+  artifactKey: Guid(a70daa2155d850b40b85dad8e5b9b452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Materials/Front_Bottom2.mat using Guid(a70daa2155d850b40b85dad8e5b9b452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f3df42cde8ea296f87ab52a69aea32') in 0.059758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Truck_LowPoly/Materials/Front_Main_Body 3.mat
+  artifactKey: Guid(2fe4d34e7ef77e547804c5fcc57dacf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Materials/Front_Main_Body 3.mat using Guid(2fe4d34e7ef77e547804c5fcc57dacf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a276f8ed2c2a2c13f4f49b9aabe26c') in 0.061991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Truck_LowPoly/Materials/Front_Bottom3.mat
+  artifactKey: Guid(f4a74248774ec9745a1a70c69f46a10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Materials/Front_Bottom3.mat using Guid(f4a74248774ec9745a1a70c69f46a10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766f15c85813ae1321e8e729821a1ef6') in 0.064772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Truck_LowPoly/Materials/Front_Bottom_Part.mat
+  artifactKey: Guid(f9a0c1d9706bb194d8c602fc00b3bb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Materials/Front_Bottom_Part.mat using Guid(f9a0c1d9706bb194d8c602fc00b3bb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc4bae0d44b7c24ec77248950e7272b') in 0.055627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.864472 seconds.
+  path: Assets/Truck_LowPoly/Mesh/Truck_LowPoly.fbx
+  artifactKey: Guid(ecce7ea6310109a41893cf983ff357bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Mesh/Truck_LowPoly.fbx using Guid(ecce7ea6310109a41893cf983ff357bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a27057cb852758f3387ea57eb4944b') in 0.454212 seconds 
